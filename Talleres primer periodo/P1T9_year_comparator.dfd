@@ -1,0 +1,118 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+98
+"AGE - COMPARATOR - Maker: Juan Sebastian Leal Pinzon - This software was created to compare ages"
+4
+1
+43
+"Put the year of birth of the first person"
+5
+1
+12
+v_yearbirth1
+4
+1
+44
+"Put the year of birth of the second person"
+5
+1
+12
+v_yearbirth2
+7
+0
+1
+25
+v_yearbirth1=v_yearbirth2
+7
+1
+1
+39
+v_yearbirth2<2022 and v_yearbirth2<2022
+6
+2
+10
+substract1
+17
+2021-v_yearbirth1
+10
+substract2
+17
+2021-v_yearbirth2
+4
+1
+95
+"The age of the first person is ",substract1," and the age of the second person is ",substract2
+7
+0
+1
+21
+substract1<substract2
+6
+1
+11
+difference2
+21
+substract1-substract2
+7
+0
+1
+14
+difference2<=1
+4
+1
+75
+"The first person is older than the second person by ",difference2," years"
+13
+4
+1
+74
+"The first person is older than the second person by ",difference2," year"
+13
+13
+6
+1
+11
+difference1
+21
+substract2-substract1
+7
+0
+1
+13
+diffrence1<=1
+4
+1
+75
+"The second person is older than the first person by ",difference1," years"
+13
+4
+1
+74
+"The second person is older than the first person by ",difference1," year"
+13
+13
+13
+4
+1
+48
+"You put a year wrong - please put a year valid"
+13
+13
+6
+1
+11
+difference3
+17
+2020-v_yearbirth2
+4
+1
+48
+"The are both the same age that is ",difference3
+13
+1

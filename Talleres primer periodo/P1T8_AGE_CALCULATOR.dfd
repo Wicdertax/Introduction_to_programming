@@ -1,0 +1,40 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+126
+"Agecalculator v1.0 - Maker: Juan Sebastian Leal Pinzon - This software use your year of your birth day to calculate your age"
+4
+1
+28
+"Put your year of birth day"
+5
+1
+11
+v_yearbirth
+7
+1
+1
+16
+v_yearbirth<2021
+6
+1
+9
+substract
+16
+2021-v_yearbirth
+4
+1
+25
+"Your age is ", substract
+13
+4
+1
+54
+"You put a wrong year - please put another year valid"
+13
+1

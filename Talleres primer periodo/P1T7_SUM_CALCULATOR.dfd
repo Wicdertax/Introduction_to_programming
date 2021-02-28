@@ -1,0 +1,45 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+90
+"SUM PLUS CALCULATOR - MAKER: Juan Sebatián Leal Pinzón - This software is to sum numbers"
+4
+1
+22
+"Put the first number"
+5
+1
+7
+number1
+4
+1
+23
+"Put the second number"
+5
+1
+7
+number2
+4
+1
+22
+"Put the third number"
+5
+1
+7
+number3
+6
+1
+3
+sum
+23
+number1+number2+number3
+4
+1
+27
+"The result of sum is ",sum
+1
