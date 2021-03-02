@@ -1,0 +1,48 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+117
+"PAY POINT PARADISE - Maker: Juan Sebastian Leal Pinzon - This softwre was created to build a payment point software"
+4
+1
+26
+"Imput prices of products"
+5
+1
+11
+P1,P2,P3,P4
+7
+0
+1
+32
+P1<=0 OR P2<=0 OR P3<=0 OR P4<=0
+6
+3
+6
+SUMPRO
+11
+P1+P2+P3+P4
+3
+IVA
+11
+SUMPRO*0.19
+5
+TOTAL
+10
+SUMPRO+IVA
+4
+1
+23
+"The total is: $",TOTAL
+13
+4
+1
+5
+"ERR"
+13
+1
