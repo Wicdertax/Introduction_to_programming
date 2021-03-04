@@ -1,0 +1,82 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+117
+"GRADE_CALCULATOR - Maker: Juan Sebastian Leal Pinzon - This softwre was created to know the total grade of students"
+4
+1
+20
+"Put the first note"
+5
+1
+7
+v_nota1
+4
+1
+21
+"Put the second note"
+5
+1
+7
+v_nota2
+4
+1
+20
+"Put the third note"
+5
+1
+7
+v_nota3
+4
+1
+21
+"Put the fourth note"
+5
+1
+7
+v_nota4
+7
+0
+1
+109
+v_nota1>=0 or v_nota1<=5 or v_nota2>=1 or v_nota2<=5 or v_nota3>=1 or v_nota3<=5 or v_nota4>=1 or v_nota4<=5 
+4
+1
+51
+"ERR: Some grade are lees than 0 or greater than 5"
+13
+6
+3
+8
+percent1
+12
+v_nota1*0.20
+8
+percent2
+12
+v_nota2*0.25
+8
+percent3
+12
+v_nota3*0.25
+6
+2
+8
+percent4
+12
+v_nota4*0.30
+13
+v_total_grade
+35
+percent1+percent2+percent3+percent4
+4
+1
+47
+"The final grade to semester is ",v_total_grade
+13
+1

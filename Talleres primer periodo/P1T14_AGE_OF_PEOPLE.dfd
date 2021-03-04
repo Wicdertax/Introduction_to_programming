@@ -1,0 +1,78 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+110
+"HOW OLD CALCULATOR - Maker: Juan Sebastian Leal Pinzon - This software calculate your age in how old you are"
+4
+1
+14
+"Put your age"
+5
+1
+3
+age
+7
+1
+1
+19
+age>=1 and age<=900
+7
+0
+1
+18
+age>=1 and age<=12
+7
+0
+1
+19
+age>=13 and age<=18
+7
+0
+1
+19
+age>=19 and age<=45
+7
+0
+1
+19
+age>=46 and age<=90
+4
+1
+11
+"MATUSALEN"
+13
+4
+1
+14
+" OLDER ADULT"
+13
+13
+4
+1
+7
+"ADULT"
+13
+13
+4
+1
+10
+"TEENAGER"
+13
+13
+4
+1
+7
+"CHILD"
+13
+13
+4
+1
+43
+"ERR: You put an age that is not available"
+13
+1
