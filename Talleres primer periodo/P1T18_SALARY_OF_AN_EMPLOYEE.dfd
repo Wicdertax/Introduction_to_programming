@@ -1,0 +1,59 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+122
+"Salary of an employeeV1.0_Maker: Juan Sebastián Leal Pinzón- This software was created to find the salary of an employee"
+4
+1
+53
+"Ingrese el sueldo del empleado en pesos Colombianos"
+5
+1
+8
+v_sueldo
+4
+1
+42
+"Ingrese los días trabajados del empleado"
+5
+1
+11
+v_dias_trab
+7
+0
+1
+11
+v_sueldo>=0
+4
+1
+99
+"ERR: You put a number not available in the first box - you need to put a number greater than zero"
+13
+7
+0
+1
+34
+v_dias_trab>=1 and v_dias_trab<=30
+4
+1
+119
+"ERR: You put a number not available in the second box - The number entered must to be greater than 0 and less than 30"
+13
+6
+1
+8
+v_salary
+25
+(v_sueldo/30)*v_dias_trab
+4
+1
+61
+"El salario del empleado es: $",v_salary," pesos Colombianos"
+13
+13
+1

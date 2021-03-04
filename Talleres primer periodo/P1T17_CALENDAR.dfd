@@ -1,0 +1,56 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+124
+"CALENDAR CALCULATORV1.0_Maker: Juan Sebastián Leal Pinzón- This software was created to find how many days have each month"
+4
+1
+79
+"Imput a number between 1 and 12 representing  each month of the year in order"
+5
+1
+5
+v_num
+7
+0
+1
+22
+v_num>=1 and v_num<=12
+4
+1
+37
+"ERR: You put a number not available"
+13
+7
+1
+1
+76
+v_num=1 or v_num=3 or v_num=5 or v_num=7 or v_num=8 or v_num=10 or v_num=12 
+4
+1
+24
+"Your month has 31 days"
+13
+7
+1
+1
+41
+v_num=4 or v_num=6 or v_num=9 or v_num=11
+4
+1
+24
+"Your month has 30 days"
+13
+4
+1
+53
+"Your month has 28 days and in leep year has 29 days"
+13
+13
+13
+1

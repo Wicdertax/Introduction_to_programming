@@ -1,0 +1,40 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+160
+"NUMBER EVEN OR ODD-Maker: Juan Sebastian Leal Pinzon- This software was created to compare your number between numbers even or odd- PLEASE USE INTEGER NUMBERS"
+4
+1
+22
+"Put a integer number"
+5
+1
+5
+v_num
+6
+1
+4
+nota
+11
+v_num mod 2
+7
+0
+1
+6
+nota=0
+4
+1
+29
+"The number ",v_num," is odd"
+13
+4
+1
+30
+"The number ",v_num," is even"
+13
+1

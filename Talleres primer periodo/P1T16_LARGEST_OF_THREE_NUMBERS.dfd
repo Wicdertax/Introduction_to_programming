@@ -1,0 +1,56 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+111
+"LARGEST OF THREE NUMBERSV1.0-Maker: Juan Sebastian Leal Pinzon-This software was created to compare 3 numbers"
+4
+1
+25
+"Imput the three numbers"
+5
+1
+8
+n1,n2,n3
+7
+1
+1
+15
+n1=n2 and n1=n3
+4
+1
+44
+"All numbers is the same number that is ",n1
+13
+7
+1
+1
+15
+n1>n2 and n1>n3
+4
+1
+25
+"The number 1 is greater"
+13
+7
+0
+1
+15
+n3>n1 and n3>n2
+4
+1
+25
+"The number 2 is greater"
+13
+4
+1
+25
+"The number 3 is greater"
+13
+13
+13
+1
