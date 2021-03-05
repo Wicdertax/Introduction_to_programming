@@ -1,0 +1,51 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+120
+"VOLUMEN_OFCYLINDER_1.0-Maker: Juan Sebastián Leal Pinzón-This software was created to calculate de volumen of cylinder"
+4
+1
+122
+"In the first value put the cylinder radius in centimeters and in the second value put the cylinder height in centimeters"
+5
+1
+16
+v_radio,v_height
+7
+1
+1
+10
+v_radio<=0
+4
+1
+59
+"ERR: You put a value not available in the cylinder radius"
+13
+7
+1
+1
+11
+v_height<=0
+4
+1
+59
+"ERR: You put a value not available in the cylinder height"
+13
+6
+1
+7
+volumen
+31
+v_radio*v_radio*v_height*3.1416
+4
+1
+42
+"The volumen in centimeters is: $",volumen
+13
+13
+1

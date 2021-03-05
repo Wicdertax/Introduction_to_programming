@@ -1,0 +1,48 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+89
+"NUMER_MATH-MAKER: Juan Sebastián Leal Pinzón-This sofware was created to use cycles for"
+4
+1
+30
+"type the cycle of repetition"
+5
+1
+14
+v_total_number
+7
+0
+1
+17
+v_total_number<=0
+8
+1
+1
+i
+1
+1
+1
+1
+14
+v_total_number
+1
+1
+1
+4
+1
+24
+"The number cycle is ",i
+10
+13
+4
+1
+38
+"ERR: This number should be than zero"
+13
+1
