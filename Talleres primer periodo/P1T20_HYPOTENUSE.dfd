@@ -1,0 +1,59 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+123
+"HYPOTENUSE_MATH - Maker: Juan Sebastián Leal Pinzón - This software was created to calculate the hypotenuse of a triangle"
+4
+1
+52
+"Ingrese el valor en centímetros del cateto opuesto"
+5
+1
+9
+v_opuesto
+7
+1
+1
+12
+v_opuesto<=0
+4
+1
+68
+"ERR: Hay un valor que es menor a 0 en la casilla de cateto opuesto"
+13
+4
+1
+54
+"Ingrese el valor en centímetros del cateto adyacente"
+5
+1
+11
+v_adyacente
+7
+1
+1
+14
+v_adyacente<=0
+4
+1
+70
+"ERR: Hay un valor que es menor a 0 en la casilla de cateto adyacente"
+13
+6
+1
+10
+hipotenusa
+33
+sqrt(v_opuesto)+sqrt(v_adyacente)
+4
+1
+43
+"El valor de la hypotenusa es: ",hipotenusa
+13
+13
+1
