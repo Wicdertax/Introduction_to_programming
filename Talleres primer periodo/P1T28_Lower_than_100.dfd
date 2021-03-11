@@ -1,0 +1,77 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+123
+"SOFTLESS100 version1.0 - Maker Juan Sebastián Leal Pinzón - This software was created to sum numbers until the sum is 100"
+6
+3
+5
+v_sum
+1
+0
+9
+v_average
+1
+0
+7
+v_count
+1
+0
+4
+1
+16
+"Imput a number"
+5
+1
+8
+v_number
+9
+1
+12
+v_number>100
+6
+2
+5
+v_sum
+14
+v_sum+v_number
+7
+v_count
+9
+v_count+1
+4
+1
+16
+"Imput a number"
+5
+1
+8
+v_number
+11
+7
+1
+1
+9
+v_count=0
+6
+1
+9
+v_avergae
+13
+v_sum/v_count
+4
+1
+81
+"The sum is: ",v_sum," and the average is ",v_average," for ",v_count," numbers "
+13
+4
+1
+42
+"ERR: The total numbers over 100 are zero"
+13
+1
