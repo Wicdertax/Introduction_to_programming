@@ -1,7 +1,7 @@
 package usta.fis;
 //AUTHOR: Juan Sebastian Leal Pinzon, Jhoan Sebastian Cardenas Bravo
 //DATE: 26 MARCH 2021
-//DESCRIPTION: Parcial primer corte
+//DESCRIPTION: Parcial primer corte, This software was created to calculate the average of 5 kids
 import java.util.Scanner;
 public class Main {
 
