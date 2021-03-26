@@ -1,16 +1,38 @@
 package usta.fis;
 //AUTHOR: Juan Sebastian Leal Pinzon
-//Date: 16-march-2021
+//Date: 19-march-2021
 //Description: This program show a Seahorse with symbols
-import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("---------------------------------");
-        System.out.println("Softimputnum V1.0");
-        System.out.println("Maker: Juan Sebastian Leal Pinzon");
-        System.out.println("Date: 23 MARCH 2021");
-        System.out.println("---------------------------------");
-
+        System.out.println("________$$$$..\n" +
+                "______$$$$$$$$$\n" +
+                "______$$$$$$$_$\n" +
+                "_____$$$$$$$$$$\n" +
+                "______$$$$$$$$$$\n" +
+                "_____$$$$$$_$$$$$\n" +
+                "____$$$$$$$_____$$$\n" +
+                "____$$$$$$$$_____$\n" +
+                "____$$$$$$$$$$\n" +
+                "_____$$$$$$$$$$\n" +
+                "_____$$$$$$$$$$$\n" +
+                "______$$$$$$$$$$$\n" +
+                "_$$$$___$$$$$$$$$\n" +
+                "__$$$$$$$$$$$$$$$\n" +
+                "_$$$$$$$$$$$$$$$\n" +
+                "__$$$$$$$$$$$$$\n" +
+                "$$$$$$$$$$$$$\n" +
+                "__$__$$$$$$\n" +
+                "____$$$$$$\n" +
+                "____$$$$$\n" +
+                "___$$$$$$_____$\n" +
+                "___$$$$$$___$$_$$\n" +
+                "____$$$$$___$__$$\n" +
+                "____$$$$$______$$\n" +
+                "_____$$$$$____$$$\n" +
+                "_______$$$$$$$$$\n" +
+                "__________$$$$");
     }
+
 }
