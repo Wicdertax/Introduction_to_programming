@@ -14,9 +14,10 @@ public class Main {
         System.out.println("Input the number 2 if you want to rest");
         System.out.println("Input the number 3 if you want to multiply");
         System.out.println("Input the number 4 if you want to difference");
+        System.out.println("Input the number 5 if you want to close the program");
         System.out.println("--------------------------------------");
         int v_selection = keyboard.nextInt();
-        while (v_selection<=0 || v_selection>=5) {
+        while (v_selection<=0 || v_selection>=6) {
             System.err.println("ERR: The number of the selection can't be less than 1 and greater than 2, please put the selection number again ");
             v_selection = keyboard.nextInt();
         }
@@ -31,6 +32,9 @@ public class Main {
         }
         if (v_selection == 4) {
             p_difference();
+        }
+        else {
+            p_close_program();
         }
 
     }
@@ -82,5 +86,8 @@ public class Main {
         double v_result_difference = v_difference_user_1 / v_difference_user_2;
         System.out.println(" The total rest is " + v_result_difference);
         return v_result_difference;
+    }
+    public static void p_close_program() {
+        System.out.println("Program ended");
     }
 }
