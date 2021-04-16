@@ -11,7 +11,7 @@ public class Main {
         Scanner keyboard = new Scanner(System.in);
         int v_location, v_kilos, v_total_package = 0;
         for (int i=1;i<=10;i=i+1){
-            System.out.println("------Package "+i+"------");
+            System.out.println("----------Package "+i+"----------");
             System.out.println("Where do you want to send the package?");
             System.out.println("The prices in dollar for each location are these");
             System.out.println("1) North America: $11");
@@ -54,7 +54,7 @@ public class Main {
             if (v_location==5){
                 v_total_package=v_total_package+27*v_kilos;
             }
-            System.out.println("The total price in dollars are: $USD "+v_total_package);
+            System.out.println("The total price in dollars are: $USD " + v_total_package);
         }
 
     }
