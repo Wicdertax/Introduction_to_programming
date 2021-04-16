@@ -36,9 +36,9 @@ public class Main {
     }
     public static void p_show_info(){
         System.out.println("---------------------------------");
-        System.out.println("Basic Calculator V1.0");
+        System.out.println("      Basic Calculator V1.0");
         System.out.println("Maker: Juan Sebastian Leal Pinzon");
-        System.out.println("Date: 15 April 2021");
+        System.out.println("       Date: 15 April 2021");
         System.out.println("---------------------------------");
     }
     public static double p_sum() {
