@@ -6,17 +6,18 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-	int v_number_one,v_number_two,v_operation;
+	int v_number_one=0,v_number_two=0,v_operation=1;
 	p_show_info_program();
 	Scanner keyboard = new Scanner(System.in);
-	System.out.println("Please input the number one");
-	v_number_one = keyboard.nextInt();
-	System.out.println("Please input the number two");
-	v_number_two = keyboard.nextInt();
-	System.out.println("Please input 1 to sum, 2 to subtract, 3 multiply, 4 division, o exit");
-	v_operation = keyboard.nextInt();
-		System.out.println("The result of the operation is " + p_operate_numbers(v_number_one, v_number_two, v_operation));
-
+		while(v_operation!=0) {
+			System.out.println("Please input the number one");
+			v_number_one = keyboard.nextInt();
+			System.out.println("Please input the number two");
+			v_number_two = keyboard.nextInt();
+			System.out.println("Please input 1 to sum, 2 to subtract, 3 multiply, 4 division, o exit");
+			v_operation = keyboard.nextInt();
+			System.out.println("The result of the operation is " + p_operate_numbers(v_number_one, v_number_two, v_operation));
+		}
     }
     public static void p_show_info_program(){
 		System.out.println("---------------------------------");
@@ -38,8 +39,11 @@ public class Main {
 			return v_number_one - v_number_two;
 		case 3:
 			return v_number_one * v_number_two;
-		default:
+		case 4:
 			return v_number_one / v_number_two;
+		default:
+			System.out.println("Program finished");
+			return 0;
 	}
 	}
 }
