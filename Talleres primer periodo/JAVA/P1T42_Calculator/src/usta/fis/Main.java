@@ -33,9 +33,6 @@ public class Main {
         if (v_selection == 4) {
             p_difference();
         }
-        else {
-            p_close_program();
-        }
 
     }
     public static void p_show_info(){
@@ -86,8 +83,5 @@ public class Main {
         double v_result_difference = v_difference_user_1 / v_difference_user_2;
         System.out.println(" The total rest is " + v_result_difference);
         return v_result_difference;
-    }
-    public static void p_close_program() {
-        System.out.println("Program ended");
     }
 }
