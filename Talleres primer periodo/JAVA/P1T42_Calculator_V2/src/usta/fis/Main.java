@@ -47,7 +47,7 @@ public class Main {
     		System.err.println("The value can't be less than one and greater than 5, please input again 1 to sum, 2 to subtract, 3 multiply, 4 division");
 			v_operation = keyboard.nextInt();
 		}
-		switch(v_operation) {
+		switch(v_operation) { //En este método se elige la operación que se quiera hacer
 			case 1:
 				 v_result = v_number_one + v_number_two;
 				 v_result_save = Integer.toString(v_result);
@@ -62,16 +62,17 @@ public class Main {
 				return v_result_save;
 
 			case 4:
-				v_result = v_number_one / v_number_two;
-				v_result_save = Integer.toString(v_result);
+				v_result = v_number_one / v_number_two; //operación
+				v_result_save = Integer.toString(v_result); //Pasar de int a String
 				return v_result_save;
+
 			case 5:
 				return p_prime_numbers(v_number_one);
 			default:
 				return "Program finished";
 		}
 	}
-	public static String p_prime_numbers(int v_number_one) {
+	public static String p_prime_numbers(int v_number_one) {  //método de identificar un numero primo
 		Scanner lector = new Scanner(System.in);
 		int a = 0, i;
 		System.out.println("╔═══════════════════════╗");
@@ -85,9 +86,9 @@ public class Main {
 			}
 		}
 		if (a != 2) {
-			return "in not a prime number";
+			return "in not a Prime number";
 		} else {
-			return "is a prime number";
+			return "is a Prime number";
 		}
 	}
 }
