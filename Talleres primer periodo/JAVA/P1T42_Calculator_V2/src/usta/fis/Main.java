@@ -10,7 +10,14 @@ public class Main {
 	p_show_info_program();
 	Scanner keyboard = new Scanner(System.in);
 	do {
-		System.out.println("Please input 1 to sum, 2 to subtract, 3 multiply, 4 division, 5 prime number or not prime number, 0 exit");
+		System.out.println("Please input ");
+		System.out.println("1) To sum");
+		System.out.println("2) To subtract");
+		System.out.println("3) Multiply");
+		System.out.println("4) Division");
+		System.out.println("5) Prime number or not prime number");
+		System.out.println("0) Exit");
+
 		v_operation = keyboard.nextInt();
 		while (v_operation <= -1 || v_operation >= 6) {
 			System.err.println("The number can't be less than 0 and greater than 5, please input again a number between 0 and 5");
