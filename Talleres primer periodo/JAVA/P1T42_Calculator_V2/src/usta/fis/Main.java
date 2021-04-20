@@ -34,7 +34,7 @@ public class Main {
 			v_number_two = keyboard.nextInt();
 			System.out.println("The result of the operation is " + p_operate_numbers(v_number_one, v_number_two, v_operation));
 		} else {
-			System.out.println("The number " + p_prime_numbers(v_number_one));
+			System.out.println("The number " + p_validate_prime_numbers(v_number_one));
 		}
 	} while (v_operation != 0);
 
@@ -74,14 +74,14 @@ public class Main {
 				return v_result_save;
 
 			case 5:
-				return p_prime_numbers(v_number_one);
+				return p_validate_prime_numbers(v_number_one);
 			default:
 				return "Program finished";
 		}
 	}
-	public static String p_prime_numbers(int v_number_one) {  //método de identificar un numero primo
+	public static String p_validate_prime_numbers(int v_number_one) {  //método de identificar un numero primo
 		Scanner lector = new Scanner(System.in);
-		int a = 0, i;
+		int v_numbers_divide = 0, i;
 		System.out.println("╔═══════════════════════╗");
 		System.out.println("║Prime number identifier║");
 		System.out.println("╚═══════════════════════╝");
@@ -89,14 +89,29 @@ public class Main {
 		v_number_one = lector.nextInt();
 		for (i = 1; i <= v_number_one; i++) {
 			if (v_number_one % i == 0) {
-				a++;
+				v_numbers_divide++;
 			}
 		}
-		if (a != 2) {
+		if (v_numbers_divide != 2) {
 			return "in not a Prime number";
 		} else {
 			return "is a Prime number";
 		}
+	}
+	public static boolean p_prime_numbers_v2(int v_number_one){
+    	int v_numbers_divide =0,i;
+		System.out.println("╔═══════════════════════╗");
+		System.out.println("║Prime number identifier║");
+		System.out.println("╚═══════════════════════╝");
+		System.out.println("Please input a number");
+		for (i = 1; i <= v_number_one; i++) {
+			if (v_number_one % i == 0) {
+				v_numbers_divide++;
+			}
+		}
+		if(v_numbers_divide != 2) {
+			return false;
+		}return true;
 	}
 }
 
