@@ -16,6 +16,7 @@ public class Main {
 		System.out.println("3) Multiply");
 		System.out.println("4) Division");
 		System.out.println("5) Prime number or not prime number");
+		System.out.println("6) Prime numbers");
 		System.out.println("0) Exit");
 
 		v_operation = keyboard.nextInt();
@@ -34,7 +35,7 @@ public class Main {
 			v_number_two = keyboard.nextInt();
 			System.out.println("The result of the operation is " + p_operate_numbers(v_number_one, v_number_two, v_operation));
 		} else {
-			System.out.println("The number " + p_validate_prime_numbers(v_number_one));
+			System.out.println("The number " + p_validate_prime(v_number_one));
 		}
 	} while (v_operation != 0);
 
@@ -48,8 +49,8 @@ public class Main {
 	}
 	public static String p_operate_numbers(int v_number_one,int v_number_two,int v_operation){
 		Scanner keyboard = new Scanner(System.in);
-		int v_result;
-		String v_result_save;
+		int v_result=0;
+		String v_result_save, v_convert="";
     	while(v_operation<=-1 || v_operation>5) {
     		System.err.println("The value can't be less than one and greater than 5, please input again 1 to sum, 2 to subtract, 3 multiply, 4 division");
 			v_operation = keyboard.nextInt();
@@ -74,44 +75,41 @@ public class Main {
 				return v_result_save;
 
 			case 5:
-				return p_validate_prime_numbers(v_number_one);
+				 v_convert= "Is not a prime number";
+				if (p_validate_prime(v_number_one)){
+					v_convert="Is a prime number";
+				}
+				break;
 			default:
-				return "Program finished";
+				 v_convert="Exit";
+				 System.exit(0);
 		}
+    	if(v_convert.isEmpty()){
+    		v_convert=String.valueOf(v_result);
+		}
+    	return v_convert;
 	}
-	public static String p_validate_prime_numbers(int v_number_one) {  //método de identificar un numero primo
-		Scanner lector = new Scanner(System.in);
-		int v_numbers_divide = 0, i;
-		System.out.println("╔═══════════════════════╗");
-		System.out.println("║Prime number identifier║");
-		System.out.println("╚═══════════════════════╝");
-		System.out.println("Please input a number");
-		v_number_one = lector.nextInt();
-		for (i = 1; i <= v_number_one; i++) {
-			if (v_number_one % i == 0) {
-				v_numbers_divide++;
+
+	public static String p_prime_number(int v_prime){
+    	String prime_numbers="";
+    	for(int counter=1; counter<= v_prime;counter++){
+    		if(p_validate_prime(counter)){
+    			prime_numbers=prime_numbers+String.valueOf(counter)+", ";
 			}
 		}
-		if (v_numbers_divide != 2) {
-			return "in not a Prime number";
-		} else {
-			return "is a Prime number";
-		}
+    	return prime_numbers;
 	}
-	public static boolean p_prime_numbers_v2(int v_number_one){
-    	int v_numbers_divide =0,i;
-		System.out.println("╔═══════════════════════╗");
-		System.out.println("║Prime number identifier║");
-		System.out.println("╚═══════════════════════╝");
-		System.out.println("Please input a number");
-		for (i = 1; i <= v_number_one; i++) {
-			if (v_number_one % i == 0) {
-				v_numbers_divide++;
+	public static boolean p_validate_prime(int v_prime){
+    	int numbers_divide=0;
+    	for (int i=1;i<=v_prime;i++){
+    		if (v_prime%i==0){
+    			numbers_divide++;
 			}
 		}
-		if(v_numbers_divide != 2) {
-			return false;
-		}return true;
+    	if(numbers_divide!=2){
+    		return false;
+		}
+    	return true;
 	}
 }
 
