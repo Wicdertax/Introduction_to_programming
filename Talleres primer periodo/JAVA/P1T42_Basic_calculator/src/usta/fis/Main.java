@@ -19,6 +19,18 @@ public class Main {
             System.out.println("6) Prime numbers");
             System.out.println("0) Exit");
             v_operation = keyboard.nextInt();
+            while(v_operation<0 || v_operation>6){
+                System.err.println("The number can´t be less than zero and greater than six, please input again the number");
+                System.err.println("Please input ");
+                System.err.println("1) To sum");
+                System.err.println("2) To subtract");
+                System.err.println("3) Multiply");
+                System.err.println("4) Division");
+                System.err.println("5) Prime number or not prime number");
+                System.err.println("6) Prime numbers");
+                System.err.println("0) Exit");
+                v_operation = keyboard.nextInt();
+            }
             if (v_operation!=0) {
                 System.out.println("Please input the number one");
                 v_number_one = keyboard.nextInt();
