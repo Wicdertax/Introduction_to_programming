@@ -1,18 +1,39 @@
 package usta.fis;
-
+//AUTHOR: Juan Sebastian Leal Pinzon
+//DATE: 25 MARCH 2021
+//DESCRIPTION: Take 3 sources an arrays
+import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-	int []p_arrays_or_vector=new int[3];
-	int counter=0;
-	int p_total=0;
-
-	p_arrays_or_vector[0]=4;
-    p_arrays_or_vector[1]=5;
-    p_arrays_or_vector[2]=2;
-
-    for (counter=0;counter<p_arrays_or_vector.length;counter++){
-        System.out.println("Su calificación del corte "+(counter+1)+" es: "+p_arrays_or_vector[counter]);
+        Scanner keyboard = new Scanner(System.in);
+        p_show_info_program();
+        System.out.println("Please input the number of times that do you want to input a number");
+        int v_user = keyboard.nextInt();
+        double[]v_numbers=new double[v_user];
+        for(int i=0;i<v_user;i++){
+            System.out.println(" Please input the number "+i);
+            v_numbers[i]=keyboard.nextDouble();
+        }
+        p_sum(v_numbers,v_user);
     }
+    public static void p_show_info_program(){
+        System.out.println("---------------------------------");
+        System.out.println("Arreglos v 1.0");
+        System.out.println("Maker: Juan Sebastian Leal Pinzon");
+        System.out.println("Date: 25 April 2021");
+        System.out.println("---------------------------------");
+    }
+    public static void p_sum(double[] v_numbers, int v_user){
+        double acumulado=0;
+        System.out.println("The grades of semester are ");
+        for (int contador_print=0;contador_print<v_user;contador_print++){
+            System.out.println("In the cut "+(contador_print+1)+"=["+v_numbers[contador_print]+"]");
+            acumulado=acumulado+v_numbers[contador_print];
+        }
+        System.out.println("----------------");
+        System.out.println("The average is: ");
+        System.out.println(acumulado/v_user);
+        System.out.println("----------------");
     }
 }
