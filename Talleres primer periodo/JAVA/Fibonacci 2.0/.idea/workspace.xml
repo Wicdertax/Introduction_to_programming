@@ -78,7 +78,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="RunManager" selected="Application.Bidimensional2">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Bidimensional2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Bidimensional2" />
       <module name="Fibonacci 2.0" />
@@ -98,8 +98,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Bidimensional2" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Bidimensional2" />
       </list>
     </recent_temporary>
   </component>

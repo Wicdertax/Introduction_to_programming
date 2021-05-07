@@ -4,8 +4,8 @@ public class Bidimensional2 {
 
         final int FILAS = 5, COLUMNAS = 4;
         Scanner sc = new Scanner(System.in);
-        int i, j, mayor, menor;
-        int filaMayor, filaMenor, colMayor, colMenor;
+        int i, j=0;
+        int sumatoria=0;
 
         int[][] bidimensional_array = new int[FILAS][COLUMNAS]; //Se crea una matriz de 5 filas y 4 columnas
 
@@ -22,9 +22,20 @@ public class Bidimensional2 {
         System.out.println("Valores introducidos:");
         for (i = 0; i < bidimensional_array.length; i++) {
             for (j = 0; j < bidimensional_array[i].length; j++) {
-                System.out.print(bidimensional_array[i][j] + " ");
+                System.out.print("|"+bidimensional_array[i][j] + "| ");
             }
             System.out.println();
         }
+        for (i = 0; i < bidimensional_array.length; i++) {
+            for (j = 0; j < bidimensional_array[i].length; j++) {
+                if (bidimensional_array[i][j]% 2 == 0){
+                    System.out.println(bidimensional_array[i][j]);
+                    System.out.println("--------------------------------------");
+
+                }
+            }
+        }
     }
 }
+
+
