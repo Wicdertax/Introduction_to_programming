@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Calculator {
     public static void main(String[] args){ //parametro unidemensional de tipo String
-        int v_number_one=0, v_number_two=0,operationToDo; //result no es necesario
+        int v_number_one, v_number_two=0,operationToDo; //result no es necesario
         String v_result;
         Scanner keyboard = new Scanner(System.in);
 
@@ -74,7 +74,7 @@ public class Calculator {
         System.out.println("---------------------------------");
         System.out.println("Calculator2 v 1.0");
         System.out.println("Maker: Juan Sebastian Leal Pinzon");
-        System.out.println("Date: 25 April 2021");
+        System.out.println("Date: 7 May 2021");
         System.out.println("---------------------------------");
     }
 }

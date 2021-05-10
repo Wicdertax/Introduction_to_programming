@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5a9b5df5-edb2-446c-9ae9-ffd0cada8cd0" name="Default Changelist" comment="" />
+    <list default="true" id="74fb2a9a-e435-461c-9ffe-44bb099aa853" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +17,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
-  <component name="ProjectId" id="1sD7UBHcACqIzMroqlBU4xUxJ9T" />
+  <component name="ProjectId" id="1sLVIp8y4LNn5VbiMywJrkmZ2cj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -28,12 +28,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
   <component name="RunManager">
-    <configuration name="ArrayOrVector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="co.edu.usta.tunja.array.v2.ArrayOrVector" />
-      <module name="array_v2" />
+    <configuration name="SingleArrayV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="co.edu.usta.tunja.array.single.SingleArrayV2" />
+      <module name="singlearray" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="co.edu.usta.tunja.array.v2.*" />
+          <option name="PATTERN" value="co.edu.usta.tunja.array.single.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -43,18 +43,18 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ArrayOrVector" />
+        <item itemvalue="Application.SingleArrayV2" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5a9b5df5-edb2-446c-9ae9-ffd0cada8cd0" name="Default Changelist" comment="" />
-      <created>1620395320444</created>
+      <changelist id="74fb2a9a-e435-461c-9ffe-44bb099aa853" name="Default Changelist" comment="" />
+      <created>1620651779520</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1620395320444</updated>
+      <updated>1620651779520</updated>
     </task>
     <servers />
   </component>
