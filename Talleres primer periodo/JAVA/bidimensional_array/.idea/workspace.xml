@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b823b76a-4fcc-43c9-92e9-c1287b0c32f2" name="Default Changelist" comment="" />
+    <list default="true" id="b823b76a-4fcc-43c9-92e9-c1287b0c32f2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Fibonacci 2.0/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Fibonacci 2.0/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dialog_windows/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dialog_windows/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dialog_windows/out/production/dialog_windows/co/edu/usta/tunja/window/dialog/example/TestDialogClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/../dialog_windows/out/production/dialog_windows/co/edu/usta/tunja/window/dialog/example/TestDialogClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dialog_windows/src/co/edu/usta/tunja/window/dialog/example/TestDialogClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dialog_windows/src/co/edu/usta/tunja/window/dialog/example/TestDialogClass.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

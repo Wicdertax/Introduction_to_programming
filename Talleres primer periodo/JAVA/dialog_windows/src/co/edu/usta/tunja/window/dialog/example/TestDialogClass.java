@@ -1,5 +1,7 @@
 package co.edu.usta.tunja.window.dialog.example;
 import javax.swing.*;
+import java.util.Scanner;
+
 public class TestDialogClass {
     public static void main(String []args){
         // JOptionPane.showMessageDialog(null, "Proceso finalizado");
@@ -12,6 +14,7 @@ public class TestDialogClass {
         //JOptionPane.showMessageDialog(null, "Cuadro de diálogo personalizado ", "Título personalizado", JOptionPane.INFORMATION_MESSAGE, icono);
         String answer;
         int amount, operation, result;
+        int number_one=0, number_2=0;
         int [] array;
         answer=JOptionPane.showInputDialog("""
                 Hi,this program is a calculator,\s
@@ -21,9 +24,11 @@ public class TestDialogClass {
         answer=JOptionPane.showInputDialog("Please input: \n 1 to sum \n 2 to subtract \n 3 yo multiply \n 4 to divide \n or 0 to exit");
         operation=Integer.parseInt(answer);
         array=new int[amount];
-        for (int i = 0; i < amount; i++) {
-            answer=JOptionPane.showInputDialog("Please input the "+(i+1)+" number");
-            array[i]=Integer.parseInt(answer);
+        if(operation!=4) {
+            for (int i = 0; i < amount; i++) {
+                answer = JOptionPane.showInputDialog("Please input the " + (i + 1) + " number");
+                array[i] = Integer.parseInt(answer);
+            }
         }
         result = p_calculator(array,operation);
         JOptionPane.showMessageDialog(null, "YOUR RESULT IS: "+result,"Resultado",JOptionPane.INFORMATION_MESSAGE);
@@ -51,8 +56,12 @@ public class TestDialogClass {
             return v_result;
         }
         if (operation==4){
-
-            return v_result;
+            int count=0;
+            v_result = v_result + array[count];
+            for (int i = 0; i < array.length ; i++) {
+                v_result = v_result/array[i];
+                return v_result;
+            }
         }else{
             v_convert = "Exit";
             System.exit(0);

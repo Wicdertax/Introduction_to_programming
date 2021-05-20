@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f11ae78-e024-4bd3-a8d5-090c5983374d" name="Default Changelist" comment="" />
+    <list default="true" id="4f11ae78-e024-4bd3-a8d5-090c5983374d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/out/production/dialog_windows/co/edu/usta/tunja/window/dialog/example/TestDialogClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dialog_windows/co/edu/usta/tunja/window/dialog/example/TestDialogClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/co/edu/usta/tunja/window/dialog/example/TestDialogClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/usta/tunja/window/dialog/example/TestDialogClass.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
