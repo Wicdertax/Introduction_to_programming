@@ -1,11 +1,12 @@
 package co.edu.usta.tunja.array.bidimensional.v2;
 
 import javax.swing.*;
+import java.util.StringTokenizer;
 
 public class Bidimensional {
     public static void main(String[] args){
         int [][] matrix;
-        int value;
+        int value, biggestnumber, numberOfSpace;
         String columns, rows, input;
         JOptionPane.showMessageDialog(null, "This program create dynamic bidimensional array");
         rows = JOptionPane.showInputDialog("Please input the size of rows");
@@ -34,8 +35,32 @@ public class Bidimensional {
             for (int j = 0; j < Integer.parseInt(columns); j++) {
                 print+=matrix[i][j]+" ";
             }
-            print+="\n";
+            print+=" \n ";
         }
-        JOptionPane.showMessageDialog(null, "The values introduced are: "+print);
+        JOptionPane.showMessageDialog(null, "The values introduced in matrix are: ");
+        biggestnumber=findbiggestintmatrix(matrix);
+
+        for (int i = 0; i < matrix.length; i++) {
+            for (int j = 0; j < matrix[i].length; j++) {
+                String value_actual_number=String.valueOf(matrix[i][j]);
+                numberOfSpace=count_digit(matrix, biggestnumber)-value_actual_number.length();
+                JOptionPane.showMessageDialog(null, print+" ");
+            }
+        }
+    }
+    public static int findbiggestintmatrix(int [][] matrix){
+        int biggest=matrix[0][0];
+        for (int i = 0; i < matrix.length; i++) {
+            for (int j = 0; j < matrix[i].length; j++) {
+                if (biggest<matrix[i][j]){
+                    biggest=matrix[i][j];
+                }
+            }
+        }
+        return biggest;
+    }
+    public static int count_digit(int[][] matrix, int biggestnumber){
+        String value = String.valueOf(biggestnumber);
+        return value.length();
     }
 }

@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0bbf830d-7ca8-463c-a909-c74012d682c4" name="Default Changelist" comment="" />
+    <list default="true" id="0bbf830d-7ca8-463c-a909-c74012d682c4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../bidimensional_array_v2/out/production/bidimensional_array_v2/co/edu/usta/tunja/array/bidimensional/v2/Bidimensional.class" beforeDir="false" afterPath="$PROJECT_DIR$/../bidimensional_array_v2/out/production/bidimensional_array_v2/co/edu/usta/tunja/array/bidimensional/v2/Bidimensional.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bidimensional_array_v2/src/co/edu/usta/tunja/array/bidimensional/v2/Bidimensional.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bidimensional_array_v2/src/co/edu/usta/tunja/array/bidimensional/v2/Bidimensional.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
