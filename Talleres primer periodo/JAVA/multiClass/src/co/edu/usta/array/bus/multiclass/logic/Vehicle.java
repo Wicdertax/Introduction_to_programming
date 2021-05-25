@@ -58,4 +58,35 @@ public class Vehicle {
     public String getPlates(){
         return plates;
     }
+    public void create_Places_Array(String rows){
+        int rowsint=Integer.parseInt(rows);
+        places=new char[rowsint][4];
+    }
+    public void Int_places_array(){
+        boolean letters=true;
+        for (int i = 0; i < places.length; i++) {
+            for (int j = 0; j <places[0].length; j++) {
+                if (letters==true){
+                    places[i][j]='D';
+                }else{
+                    places[i][j]='X';
+                }
+            }
+            if (letters==true){
+                letters=false;
+            }else{
+                letters=true;
+            }
+        }
+    }
+    public String array_to_show(){
+            String return_string="";
+        for (int i = 0; i < places.length; i++) {
+            for (int j = 0; j < places[0].length; j++) {
+                return_string=return_string+places[i][j]+" ";
+            }
+            return_string=return_string+"\n";
+        }
+        return return_string;
+    }
 }
