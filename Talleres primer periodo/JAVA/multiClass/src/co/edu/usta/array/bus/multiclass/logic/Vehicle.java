@@ -89,4 +89,32 @@ public class Vehicle {
         }
         return return_string;
     }
+    public String fill_place(String row, String column){
+        int rowInt=Integer.parseInt(row);
+        int columnInt=Integer.parseInt(column);
+        if (places[rowInt][columnInt]=='X' || places[rowInt][columnInt]=='O'){
+            return "The place is unavailable";
+        }else{
+            places[rowInt][columnInt]='O';
+            return "The place is available";
+        }
+    }
+    public String status_Bus_Places(){
+        int filled_places=0, empty_places=0, unavailable_places=0;
+
+        for (int i = 0; i <places.length; i++) {
+            for (int j = 0; j <places[i].length; j++) {
+                if (places[i][j]=='O'){
+                    filled_places=filled_places+1;
+                }
+                if (places[i][j]=='D'){
+                    empty_places=empty_places+1;
+                }
+                if (places[i][j]=='X'){
+                    unavailable_places=unavailable_places+1;
+                }
+            }
+        }
+        return " The amount of filled places are: "+filled_places+" and the empty places are: "+empty_places+" And the unavailable places are: "+unavailable_places;
+    }
 }

@@ -10,7 +10,8 @@ public class FormsView {
     //the bus have 4 columns but the number of rows be specified by the driver
     public static void main(String[] args) {
         myVehicle = new Vehicle();
-        String value, showInfo;
+        String value, showInfo, row, column;
+        int value_confirmation;
         float showInfoFloat;
         /*
         //read the value
@@ -60,10 +61,17 @@ public class FormsView {
         value=JOptionPane.showInputDialog("Please input the number of rows of the bus");
         myVehicle.create_Places_Array(value);
         myVehicle.Int_places_array();
-        showInfo= myVehicle.array_to_show();
-
+        do {
+            showInfo = myVehicle.array_to_show();
+            JOptionPane.showMessageDialog(null, showInfo);
+            row = JOptionPane.showInputDialog("Hello, for your place, lease input the row to fill");
+            column = JOptionPane.showInputDialog("Hello, for your place, lease input the column to fill");
+            showInfo = myVehicle.fill_place(row, column);
+            JOptionPane.showMessageDialog(null, showInfo);
+            value_confirmation = JOptionPane.showConfirmDialog(null, "Do you want to include another passenger?(YES) \n" +
+                    "or leave away the bus (NO)");
+        }while (value_confirmation==JOptionPane.YES_OPTION);
+        showInfo=myVehicle.status_Bus_Places();
         JOptionPane.showMessageDialog(null, showInfo);
-
-
     }
 }
